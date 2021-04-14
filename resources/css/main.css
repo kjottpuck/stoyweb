@@ -13,14 +13,35 @@ position: fixed;
 top: 0%;
 z-index: 100;
 background: transparent;
-height:10em;
+padding:5px;
 
+}
+.logo-box img {
+  height:100px;
+  width:auto;
+  opacity: 0.7;
 }
 
 .logo-box .logo-wrapper {
   background: transparent;
   position: fixed;
   top: 0%;
+}
+
+  /*SOCIAL LINKS*/
+.social-links {
+  position: fixed;
+  bottom:0;
+  right:0;
+  z-index: 100;
+
+}
+.social-links ul li{
+  display:inline;
+}
+
+.social-links ul li img{
+  max-height:20px;
 }
 
 /*PAGE*/
@@ -88,6 +109,15 @@ height:10em;
 
 .flex .release-overlay {
   position: absolute;
-  visibility: hidden;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  opacity: 0;
+  background: #fff;
+  transition: 0.8s ease all;
+}
 
+.flex .release-overlay:hover {
+  opacity: 1;
 }
