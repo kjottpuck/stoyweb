@@ -17,22 +17,25 @@ padding:5px;
 
 }
 .logo-box img {
+  filter: drop-shadow(-8px 0px 6px black);
   height:130px;
   width:auto;
+  padding-top: 25px;
+  padding-left: 25px;
 }
 
 .logo-box .logo-wrapper {
   background: transparent;
   position: fixed;
-  margin: 15px 15px;
-  top: 0%;
+  top: 25px;
+  left: 25px;
 }
 
   /*SOCIAL LINKS*/
 .social-links {
   position: fixed;
-  bottom:0;
-  right:0;
+  bottom:25px;
+  right:25px;
   z-index: 100;
 
 }
@@ -41,6 +44,7 @@ padding:5px;
 }
 
 .social-links ul li img{
+  filter: drop-shadow(8px 0px 6px black);
   max-height:40px;
 }
 
