@@ -114,8 +114,7 @@ padding:5px;
   height:100%;
   width:100%;
   opacity: 0;
-  background: #fff;
-  transition: 0.8s ease all;
+
 }
 /*hey*/
 .flex .release-overlay:hover {
