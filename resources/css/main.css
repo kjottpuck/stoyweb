@@ -116,7 +116,7 @@ padding:5px;
   width:100%;
   opacity: 0;
   background: black;
-  transition: 0.8s ease all;
+  transition: 0.5s ease all;
 }
 
 .flex .release-overlay ul {
